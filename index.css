@@ -210,10 +210,12 @@ margin: 50px 0;
 }
     li{
         display: list-item;
-       padding:5px;
-      background:#
+       padding:3px 0;
+      background-color:#3c3c3c;
     }
-    
+    footer li{
+      padding:5px 0;
+  }
     header{
   padding-left: 10px;
     }
