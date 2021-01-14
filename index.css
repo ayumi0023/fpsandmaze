@@ -19,12 +19,13 @@ header{
  background-color:#0d0d0d;
 border-top:5px solid #722319;
  padding-top: 10px;
-padding-left: 50px;
  color:#FFFEF6;
     
 }
 
-
+header h1{
+  padding-left:50px;
+}
 table{
     margin-left: auto;
     padding-bottom: 10px;
