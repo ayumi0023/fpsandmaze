@@ -89,7 +89,7 @@ input[type="submit"]{
     cursor: pointer;
     margin-bottom: 100px;
     margin-right: 20px;
-    font-family: "游ゴシック";
+   -webkit-appearance:none;
 }
 input[type="reset"]{
     background: #221816;
@@ -101,7 +101,7 @@ input[type="reset"]{
     cursor: pointer;
     margin-bottom: 100px;
     margin-left: 20px;
-    font-family: "游ゴシック";
+   -webkit-appearance:none;
 }
 form dl dt{
     width: 160px;
