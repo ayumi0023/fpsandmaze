@@ -212,8 +212,8 @@ margin: 50px 0;
         display: list-item;
     }
     
-    header h1{
-/*        padding-left: 10px;*/
+    header{
+  padding-left: 10px;
     }
     
     box{
@@ -232,7 +232,7 @@ margin: 50px 0;
     display:none;
 }
     .sph1{
-        font-size: 8vw;
+        font-size: 5vw;
     }
 .AnsBtn{
     text-align: center;
