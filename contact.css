@@ -1,0 +1,166 @@
+@charset="utf-8";
+
+*{
+  margin:0;
+  padding:0;
+  list-style:none;
+  outline: none;
+}
+
+body{
+    background-color:#4D4D4F;
+    font-family:"Roboto", "游ゴシック","ヒラギノ角ゴシック",sans-serif;
+}
+header{
+    background: #0d0d0d;
+    border-top:3px solid #772319;
+ padding:20px 0;
+text-align:center;
+ color:#FFFEF6;
+    
+}
+
+.conStyle{
+    padding: 50px;
+    text-align:center;
+    color:#FFFEF6;
+}
+
+
+
+
+
+.lead-form{
+    text-align: center;
+    font-size: 20px;
+}
+
+form{
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+.Toi{
+    overflow: hidden;
+    margin-bottom: 20px;
+    color:#FFFEF6;
+}
+
+.rendou{
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+    padding-left: 10px;
+    
+    
+}
+input[type="text"]{
+    border: solid 1px #221816;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+input[type="email"]{
+    border: solid 1px #221816;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+textarea{
+    resize: vertical;
+    width: 350px;
+    height: 200px;
+    border: solid 1px #221816;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+.btn-area{
+    text-align: center;
+}
+input[type="submit"]{
+    background: #221816;
+    border: none;
+    color: #FFFEF6;
+    font-size: 17px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    font-family: "游ゴシック";
+}
+input[type="reset"]{
+    background: #221816;
+    border: none;
+    color: #FFFEF6;
+    font-size: 17px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    font-family: "游ゴシック";
+}
+form dl dt{
+    width: 160px;
+    padding-right: 10px;
+    float: left;
+    clear: both;
+}
+
+footer{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0d0d0d; 
+    border-bottom:3px solid #722319;
+}
+p{
+    color:#FFFEF6;
+}
+
+.aLink{
+    text-decoration: none;
+    color: #FFFEF6;
+}
+.aLink:hover{
+    color: #808080;
+}
+.backtop{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:600px) {
+    
+    header{
+    background: #0d0d0d;
+    border-top:5px solid #772319;
+ padding:20px 0;
+text-align:center;
+ color:#FFFEF6;
+    
+}
+
+.conStyle{
+    padding: 50px;
+    text-align:center;
+    color:#FFFEF6;
+}
+
+
+
+
+
+.lead-form{
+    text-align: center;
+    font-size: 20px;
+}
+
+form{
+    max-width: 80%;
+    margin: 0 auto;
+}
+}
